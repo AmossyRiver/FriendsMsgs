@@ -8,6 +8,7 @@ export default function FriendForm() {
     const [answer, setAnswer] = useState("");
     const [question, setQuestion] = useState("");
     const [error, setError] = useState("");
+    const [hint, setHint] = useState("");
     const [loading, setLoading] = useState(false);
     const router = useRouter();
 
@@ -16,6 +17,7 @@ export default function FriendForm() {
         setName(newName);
         setQuestion("");
         setError("");
+        setHint("");
 
         if (newName.trim()) {
             try {
@@ -36,6 +38,7 @@ export default function FriendForm() {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setError("");
+        setHint("");
         setLoading(true);
 
         try {
@@ -49,6 +52,9 @@ export default function FriendForm() {
 
             if (!res.ok) {
                 setError(data.error || "Verification failed");
+                if (data.hint) {
+                    setHint(data.hint);
+                }
                 return;
             }
 
@@ -91,6 +97,8 @@ export default function FriendForm() {
             )}
 
             {error && <p className="text-red-400 text-sm">{error}</p>}
+
+            {hint && <p className="text-yellow-400 text-sm">💡 Hint: {hint}</p>}
 
             <button
                 type="submit"

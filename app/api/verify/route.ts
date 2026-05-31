@@ -18,7 +18,7 @@ export async function POST(request: NextRequest) {
 
         if (friend.secretAnswer.toLowerCase() !== answer.toLowerCase()) {
             return NextResponse.json(
-                { error: "Incorrect answer" },
+                { error: "Incorrect answer", hint: friend.Hint },
                 { status: 401 }
             );
         }
