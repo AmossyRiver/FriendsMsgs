@@ -1,0 +1,67 @@
+{
+  "friends": [
+    {
+      "id": "1",
+      "name": "Reuben A",
+      "secretQuestion": "What book did i get you?",
+      "Hint": "Lord of the rings : the what?",
+      "secretAnswer": "the hobbit",
+      "message": "Reuben, You've been such a great friend to me and the only one left from cement fuckers. It means alot that you stuck with me and always had my back. I really hope you succeed in life and i know one day ill be watching a big film you've worked on. Thanks for being there for me and being such a great friend.",
+      "spotifyTrackUrl": "https://open.spotify.com/embed/track/52d35Deejayu18L7EPCIjU?si=717ae647094e4199"
+    },
+    {
+      "id": "2",
+      "name": "Connor K",
+      "secretQuestion": "What Band do we have jumpers of?",
+      "Hint": "Camp Adventure",
+      "secretAnswer": "Delta Sleep",
+      "message": "PlaceHolder",
+      "spotifyTrackUrl": "https://open.spotify.com/embed/track/0hl8k492sfcfLQudNctEiR?si=b5313dceb695437d"
+    },
+    {
+      "id": "3",
+      "name": "Jess P",
+      "secretQuestion": "What School year did we meet?",
+      "Hint": "Primary School",
+      "secretAnswer": "Year 1",
+      "message": "PlaceHolder",
+      "spotifyTrackUrl": "https://open.spotify.com/embed/track/0hl8k492sfcfLQudNctEiR?si=b5313dceb695437d"
+    },
+    {
+      "id": "4",
+      "name": "Cameron B",
+      "secretQuestion": "What School year did we meet?",
+      "Hint": "Primary School",
+      "secretAnswer": "Year 1",
+      "message": "PlaceHolder",
+      "spotifyTrackUrl": "https://open.spotify.com/embed/track/0hl8k492sfcfLQudNctEiR?si=b5313dceb695437d"
+    },
+    {
+      "id": "5",
+      "name": "Cameron S",
+      "secretQuestion": "What was the first game we played together?",
+      "Hint": "Its a toxic game i have since quit ",
+      "secretAnswer": "League of legends",
+      "message": "PlaceHolder",
+      "spotifyTrackUrl": "https://open.spotify.com/embed/track/0hl8k492sfcfLQudNctEiR?si=b5313dceb695437d"
+    },
+    {
+      "id": "6",
+      "name": "Sam S",
+      "secretQuestion": "What was the Genre of music do we both enjoy?",
+      "Hint": "Pannuci's Pizza",
+      "secretAnswer": "Midwest emo",
+      "message": "PlaceHolder",
+      "spotifyTrackUrl": "https://open.spotify.com/embed/track/0hl8k492sfcfLQudNctEiR?si=b5313dceb695437d"
+    },
+    {
+      "id": "7",
+      "name": "Deer",
+      "secretQuestion": "What is my pet name for you?",
+      "Hint": "Halloween Symbol ",
+      "secretAnswer": "Pumpkin",
+      "message": "Hiii Pumpkin! You are an amazing partner and i love you so much! I hope we can continue to make memories together and you know ill always be there for you. You are gorgeous even if you smell a bit hehe jk.",
+      "spotifyTrackUrl": "https://open.spotify.com/embed/track/6uounyMKyY7rQVHHtv6lho?si=053c21f520cb4034"
+    }
+  ]
+}
